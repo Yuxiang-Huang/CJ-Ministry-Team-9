@@ -4,14 +4,16 @@
 /* Google Font */
 @import url("");
 
+/* #region Customization */
 :root {
-  --highlightYellow: #ffdd28; /* can't name it --yellow? */
+  --highlightYellow: yellow; /* can't name it --yellow? */
 }
 
 /* custom classes for display */
 .darkBlueBG {
   background-color: #243969;
 }
+/* #endregion */
 
 /* #region Navigation */
 nav {
@@ -65,5 +67,10 @@ header {
 
   #TagLine {
     font-size: small;
+  }
+
+  /* display the content of hamburger menu last */
+  #navbarSupportedContent {
+    order: 1;
   }
 }
