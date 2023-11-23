@@ -108,6 +108,15 @@ header {
   text-align: center;
 }
 
+#LeadershipImg {
+  float: left;
+  padding-right: 1em;
+
+  /* resize image */
+  max-width: 40%;
+  height: auto;
+}
+
 #LeadershipDescription {
   font-size: large;
   text-align: justify;
