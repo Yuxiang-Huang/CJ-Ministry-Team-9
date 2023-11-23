@@ -10,7 +10,7 @@
 }
 
 /* custom classes for display */
-.darkBlueBG {
+.sectionBG {
   background-color: #243969;
 }
 /* #endregion */
@@ -58,6 +58,28 @@ header {
   margin-right: 2em;
 }
 /* #endregion */
+
+/* #region Mission Statement */
+#MS {
+  padding: 1em;
+}
+
+#MSText {
+  color: var(--highlightYellow);
+  text-align: center;
+}
+
+#MSDescriptionWrapper {
+  width: 29em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#MSDescription {
+  color: #9cb8cd;
+  font-size: large;
+  text-align: center;
+}
 
 @media (max-width: 991px) {
   /* make text smaller when screen too small */
