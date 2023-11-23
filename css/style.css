@@ -4,13 +4,20 @@
 /* Google Font */
 @import url("");
 
+/* Variables */
+:root {
+  --highlightYellow: yellow; /* can't name it --yellow? */
+  --navbarBlue: #b7e0ff;
+  --sectionDarkBlue: #243969;
+}
+
 /* #region Navigation */
 nav {
-  background-color: lightblue;
+  background-color: var(--navbarBlue);
 }
 
 #DonateButton {
-  background-color: yellow;
+  background-color: var(--highlightYellow);
   border-radius: 20%;
 }
 
@@ -20,10 +27,29 @@ nav {
 /* #endregion */
 
 header {
-  background-color: blue;
+  background-color: var(--sectionDarkBlue);
+  height: 5em;
+  margin: auto;
+  position: relative;
 }
 
 #TitleText {
+  display: inline;
   letter-spacing: 0.3em;
-  color: yellow;
+  color: var(--highlightYellow);
+  margin-left: 0.2em;
+
+  /* for align center vertically */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#TagLine {
+  display: inline;
+  color: var(--highlightYellow);
+  text-decoration: underline;
+  float: right;
+  margin-top: 0.5em;
+  margin-right: 2em;
 }
