@@ -56,3 +56,14 @@ header {
   margin-right: 2em;
 }
 /* #endregion */
+
+@media (max-width: 991px) {
+  /* make text smaller when screen too small */
+  #TitleText {
+    font-size: xx-large;
+  }
+
+  #TagLine {
+    font-size: small;
+  }
+}
