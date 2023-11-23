@@ -7,6 +7,7 @@
 /* #region Customization */
 :root {
   --highlightYellow: yellow; /* can't name it --yellow? */
+  --normalTextColor: #123652;
 }
 
 /* custom classes for display */
@@ -60,26 +61,58 @@ header {
 /* #endregion */
 
 /* #region Mission Statement */
-#MS {
+#Mission {
   padding: 1em;
 }
 
-#MSText {
+#MissionTitle {
   color: var(--highlightYellow);
   text-align: center;
 }
 
-#MSDescriptionWrapper {
+#MissionDescriptionWrapper {
   width: 29em;
   margin-left: auto;
   margin-right: auto;
 }
 
-#MSDescription {
+#MissionDescription {
   color: #9cb8cd;
   font-size: large;
   text-align: center;
 }
+/* #endregion */
+
+/* #region About Us and Leadership */
+
+#AboutUs {
+  color: var(--normalTextColor);
+  padding: 3em 3em 0;
+}
+
+#AboutUsTitle {
+  text-align: center;
+}
+
+#AboutUsDescription {
+  font-size: large;
+  text-align: justify;
+}
+
+#Leadership {
+  color: var(--normalTextColor);
+  padding: 3em 3em 0;
+}
+
+#LeadershipTitle {
+  text-align: center;
+}
+
+#LeadershipDescription {
+  font-size: large;
+  text-align: justify;
+}
+/* #endregion */
 
 @media (max-width: 991px) {
   /* make text smaller when screen too small */
