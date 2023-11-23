@@ -1,0 +1,29 @@
+/* Icons */
+@import url("");
+
+/* Google Font */
+@import url("");
+
+/* #region Navigation */
+nav {
+  background-color: lightblue;
+}
+
+#DonateButton {
+  background-color: yellow;
+  border-radius: 20%;
+}
+
+#pageLinks {
+  width: 600px; /* possibly better to use fix pixel size than percentage */
+}
+/* #endregion */
+
+header {
+  background-color: blue;
+}
+
+#TitleText {
+  letter-spacing: 0.3em;
+  color: yellow;
+}

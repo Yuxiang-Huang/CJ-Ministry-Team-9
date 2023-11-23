@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CJ Ministry</title>
 
+    <!-- CSS Stylesheet -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+
     <!-- The Bootstrap Stylesheet-->
     <link
       rel="stylesheet"
@@ -34,12 +37,15 @@
     <!--#endregion -->
 
     <!-- The Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">CJ Ministry</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- narbar: inline display -->
+      <!-- navbar-expand-lg: don't show hamburger until large screen -->
+      <!-- navbar-light: display style -->
 
+      <!-- the logo -->
       <img src="img/Logo.png" alt="" />
 
-      <!-- For Mobile -->
+      <!-- region Hambuger Menu for Mobile -->
       <button
         class="navbar-toggler"
         type="button"
@@ -49,11 +55,17 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
+        <!-- copy pasted from Bootstrap, probably safe to leave as it is... -->
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <!-- #region Part that collapses -->
+
+      <!-- class names and id necessary for the function -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <!-- d-flex justify-content-around for space between each link -->
+        <ul class="navbar-nav d-flex justify-content-around" id="pageLinks">
+          <a class="nav-link active" href="#">Home</a>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle active"
@@ -72,6 +84,9 @@
               <a class="dropdown-item" href="#">Mental Abuses</a>
             </div>
           </li>
+          <li class="navbar-nav">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Faith</a>
           </li>
@@ -80,6 +95,21 @@
           </li>
         </ul>
       </div>
+      <!--#endregion -->
+
+      <!-- Donate Button -->
+      <button id="DonateButton" class="btn">Donate!</button>
     </nav>
+
+    <!-- header -->
+    <header>
+      <h1 id="TitleText">CJ Ministry</h1>
+    </header>
+
+    <!-- <div class="d-flex justify-content-between" id="test">
+      <p>A</p>
+      <p>B</p>
+      <p>C</p>
+    </div> -->
   </body>
 </html>
