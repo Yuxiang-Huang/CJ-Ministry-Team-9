@@ -99,7 +99,7 @@ header {
 /* #region About Us and Leadership */
 #AboutUs {
   color: var(--normalTextColor);
-  padding: 3em 0 0 0;
+  padding-top: 3em;
 }
 
 #AboutUsTitle {
@@ -192,5 +192,10 @@ footer {
   /* display the content of hamburger menu last */
   #Collapse {
     order: 1;
+  }
+
+  /* pretty bad fix for the Leadership section to be responsive and align correctly... */
+  #Leadership {
+    padding-left: 0;
   }
 }
