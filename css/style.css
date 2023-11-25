@@ -28,7 +28,7 @@ nav {
 }
 
 #NavLinks {
-  width: 600px; /* possibly better to use fix pixel size than percentage */
+  width: 400px; /* possibly better to use fix pixel size than percentage */
 }
 
 .nav-link {
@@ -62,6 +62,14 @@ header {
   float: right;
   margin-top: 0.5em;
   margin-right: 2em;
+}
+/* #endregion */
+
+/* #region Carousel */
+/* make the carousel controllers more clear to see  */
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
 }
 /* #endregion */
 
@@ -182,7 +190,7 @@ footer {
   }
 
   /* display the content of hamburger menu last */
-  #navbarSupportedContent {
+  #Collapse {
     order: 1;
   }
 }
