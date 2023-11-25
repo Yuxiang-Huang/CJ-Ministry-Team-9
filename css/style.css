@@ -27,7 +27,7 @@ nav {
   background-color: var(--highlightYellow);
 }
 
-#navLinks {
+#NavLinks {
   width: 600px; /* possibly better to use fix pixel size than percentage */
 }
 
@@ -91,7 +91,7 @@ header {
 /* #region About Us and Leadership */
 #AboutUs {
   color: var(--normalTextColor);
-  padding: 3em 0 3em 0;
+  padding: 3em 0 0 0;
 }
 
 #AboutUsTitle {
