@@ -6,16 +6,38 @@
 
 /* #region Customization */
 :root {
-  --highlightYellow: yellow; /* can't name it --yellow? */
+  --highlightYellow: #FFDD28; /* can't name it --yellow? */
   --normalTextColor: #123652;
   --sectionTextColor: #9cb8cd;
+  
 }
 
 /* custom classes for display */
 .sectionBG {
   background-color: #243969;
+  padding:5%;
 }
 /* #endregion */
+
+.imgContainer{
+  height:700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.imgContainer img{
+  /* object-fit: contain;
+  margin: auto;
+  display: block; */
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  /* height:100%; */
+}
+
 
 /* #region Navigation */
 nav {
@@ -37,6 +59,10 @@ nav {
 /* #endregion */
 
 /* #region Header */
+.navbar-custom{
+  background-color: var(--sectionTextColor);
+}
+
 header {
   height: 5em;
   margin: auto;
@@ -48,7 +74,7 @@ header {
   color: var(--highlightYellow);
   letter-spacing: 0.3em;
   margin-left: 0.2em;
-
+  font-size: 3rem;
   /* for align center vertically */
   position: absolute;
   top: 50%;
@@ -57,6 +83,7 @@ header {
 
 #TagLine {
   display: inline;
+  font-size: 1rem;
   color: var(--highlightYellow);
   text-decoration: underline;
   float: right;
@@ -75,12 +102,18 @@ header {
 
 /* #region Mission Statement */
 #Mission {
-  padding: 1em;
+  padding: 2em;
 }
 
 #MissionTitle {
   color: var(--highlightYellow);
   text-align: center;
+}
+
+.imgWrapper{
+  margin:auto;
+  width:50px;
+
 }
 
 #MissionDescriptionWrapper {
@@ -198,4 +231,20 @@ footer {
   #Leadership {
     padding-left: 0;
   }
+}
+
+.bg-custom {
+  background-color: #11204300!important;
+}
+.customSize{
+  width: 30% !important;
+  margin:auto;
+}
+
+.titleColor{
+  color:#FFDD28 !important;
+}
+
+.cardTextColor{
+  color: var(--sectionTextColor);
 }
