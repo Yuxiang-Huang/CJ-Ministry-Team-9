@@ -1,4 +1,12 @@
 h1,
-p {
+p,
+h2 {
   margin-left: 1%;
+}
+
+#BigDonationBtn {
+  font-size: 5em;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
 }
