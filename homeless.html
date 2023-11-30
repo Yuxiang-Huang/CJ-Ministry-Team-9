@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CJ Ministry</title>
+
+    <!-- CSS Stylesheet -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/resources.css" type="text/css" rel="stylesheet" />
+
+    <!-- The Bootstrap Stylesheet-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- #region The Bootstrap JS Scripts -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!--#endregion -->
+
+    <!-- The Nav Bar -->
+    <!-- narbar: inline display -->
+    <!-- navbar-expand-lg: don't show hamburger in large screen -->
+    <!-- bg-body-tertiary: display style -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- container-fluid: general structure -->
+      <div class="container-fluid">
+        <!-- Logo -->
+        <img src="img/Logo.png" alt="" />
+
+        <!-- Hambuger Menu for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#Collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="Collapse">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around"
+            id="NavLinks"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <!-- Drop Down -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Resources
+              </a>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item" href="#">Homeless</a>
+                <a class="dropdown-item" href="#">Elderly</a>
+                <a class="dropdown-item" href="#">Mental Abuses</a>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Faith</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">You Can Help</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Donate Button -->
+        <button id="DonateButton" class="btn">Donate!</button>
+      </div>
+    </nav>
+
+    <h1>Homelessness Resources</h1>
+    <ul>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+    </ul>
+
+    <h1>Help Request Form</h1>
+    <p>
+      CJ Ministry is very dedicated to helping every individual with their
+      unique circumstance.
+    </p>
+    <p>
+      If the resources above don't apply to your situation, please fill out the
+      form below for CJ ministry to reach our to help directly.
+    </p>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSckO75gW4mQ1MXg6BQOEcmD9NxSL8QIBj60YXncBvkbDHNlmg/viewform?embedded=true"
+      width="640"
+      height="382"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      >Loading…</iframe
+    >
+
+    <footer>
+      <div id="FooterHeaderRow" class="d-flex justify-content-between">
+        <p>Contact Us</p>
+        <p>Stay Connected</p>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p>412-361-1359</p>
+        <p>F</p>
+      </div>
+      <p>CJ Ministry &lt;cjministry@liftinghands.org.in&gt;</p>
+    </footer>
+  </body>
+</html>
