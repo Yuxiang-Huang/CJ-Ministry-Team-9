@@ -1,12 +1,16 @@
 h1,
 p,
 h2 {
-  margin-left: 1%;
+  padding: 1%;
 }
 
-#BigDonationBtn {
+/* #BigDonationBtn {
   font-size: 5em;
   background-color: blue;
   color: white;
   border-radius: 10px;
+} */
+
+.card {
+  margin-bottom: 5%;
 }
