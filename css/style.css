@@ -6,28 +6,27 @@
 
 /* #region Customization */
 :root {
-  --highlightYellow: #FFDD28; /* can't name it --yellow? */
+  --highlightYellow: #ffdd28; /* can't name it --yellow? */
   --normalTextColor: #123652;
   --sectionTextColor: #9cb8cd;
-  
 }
 
 /* custom classes for display */
 .sectionBG {
   background-color: #243969;
-  padding:5%;
+  padding: 5%;
 }
 /* #endregion */
 
-.imgContainer{
-  height:700px;
+.imgContainer {
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden
+  overflow: hidden;
 }
 
-.imgContainer img{
+.imgContainer img {
   /* object-fit: contain;
   margin: auto;
   display: block; */
@@ -37,7 +36,6 @@
 
   /* height:100%; */
 }
-
 
 /* #region Navigation */
 nav {
@@ -59,7 +57,7 @@ nav {
 /* #endregion */
 
 /* #region Header */
-.navbar-custom{
+.navbar-custom {
   background-color: var(--sectionTextColor);
 }
 
@@ -110,10 +108,9 @@ header {
   text-align: center;
 }
 
-.imgWrapper{
-  margin:auto;
-  width:50px;
-
+.imgWrapper {
+  margin: auto;
+  width: 50px;
 }
 
 #MissionDescriptionWrapper {
@@ -234,17 +231,17 @@ footer {
 }
 
 .bg-custom {
-  background-color: #11204300!important;
+  background-color: #11204300 !important;
 }
-.customSize{
+.customSize {
   width: 30% !important;
-  margin:auto;
+  margin: auto;
 }
 
-.titleColor{
-  color:#FFDD28 !important;
+.titleColor {
+  color: #ffdd28 !important;
 }
 
-.cardTextColor{
+.cardTextColor {
   color: var(--sectionTextColor);
 }
