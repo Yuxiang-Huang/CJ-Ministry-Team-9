@@ -18,6 +18,25 @@
 }
 /* #endregion */
 
+.resourcesHead{
+  background-color: #243969;
+  padding: 2%;
+  color:#ffdd28;
+}
+
+.resourceList{
+  padding:2%;
+  font-size: 1.2em;
+}
+
+.resourceSub{
+  background-color: #243969;
+  padding: 2%;
+  font-size: 1.5em;
+  color:#ffdd28;}
+
+.helpInfo
+
 .imgContainer {
   height: 700px;
   display: flex;
