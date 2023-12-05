@@ -21,7 +21,6 @@
 .headerimg{
   height: auto;
   max-width: 100%;
-  margin-top:4%;
   background-color: #9cb8cd;
 }
 
@@ -56,7 +55,6 @@
 /* #region Navigation */
 nav {
   background-color: #b7e0ff;
-  height: 8%;
 }
 
 #DonateButton {
@@ -252,6 +250,10 @@ footer {
   /* display the content of hamburger menu last */
   #Collapse {
     order: 1;
+  }
+
+  .navbar-toggler{
+    order: -1;
   }
 
   /* pretty bad fix for the Leadership section to be responsive and align correctly... */
