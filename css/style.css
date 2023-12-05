@@ -34,6 +34,8 @@
   background-color: #243969;
   padding: 2%;
   color: #ffdd28;
+  letter-spacing: .2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .resourceList {
