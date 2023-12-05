@@ -13,12 +13,12 @@
 
 /* custom classes for display */
 
-.headerBG{
+.headerBG {
   height: auto;
   max-width: 100%;
 }
 
-.headerimg{
+.headerimg {
   height: auto;
   max-width: 100%;
   background-color: #9cb8cd;
@@ -48,8 +48,8 @@
   color: #ffdd28;
 }
 
-.imageContainer{
-  margin:2%;
+.imageContainer {
+  margin: 2% 0 2% 0;
 }
 
 /* #region Navigation */
@@ -145,13 +145,13 @@ header {
 #AboutUs {
   color: var(--normalTextColor);
   /* padding-top: 3em; */
-  padding: 3% 6% 6% 6%
+  padding: 3% 6% 6% 6%;
 }
 
 #AboutUsTitle {
   text-align: left;
   font-size: 3em;
-  margin-bottom:4%;
+  margin-bottom: 4%;
 }
 
 #AboutUsDescription {
@@ -161,14 +161,13 @@ header {
 
 #Leadership {
   color: var(--normalTextColor);
-  padding: 3% 6% 6% 6%
-
+  padding: 3% 6% 6% 6%;
 }
 
 #LeadershipTitle {
   text-align: left;
   font-size: 3em;
-  margin-bottom:4%;
+  margin-bottom: 4%;
 }
 
 #LeadershipImg {
@@ -189,14 +188,13 @@ header {
 /* #region Our Values */
 #OurValues {
   padding: 1em;
-  padding-top:2em;
+  padding-top: 2em;
 }
 
 #OurValuesTitle {
   color: var(--highlightYellow);
   text-align: center;
 }
-
 
 #GallaryTitle {
   text-align: center;
@@ -253,7 +251,7 @@ footer {
     order: 1;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     order: -1;
   }
 
