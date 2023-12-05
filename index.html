@@ -28,7 +28,7 @@
   <!-- narbar: inline display -->
   <!-- navbar-expand-lg: don't show hamburger in large screen -->
   <!-- bg-body-primary: display style -->
-  <nav class="navbar navbar-expand-lg bg-body-primary">
+  <nav class="navbar navbar-expand-lg bg-body-primary shadow p-3 fixed-top ">
     <!-- container-fluid: general structure -->
     <div class="container-fluid">
       <!-- Logo -->
@@ -71,10 +71,21 @@
   </nav>
 
   <!-- header -->
-  <header class="sectionBG">
-    <h1 id="TitleText">CJ MINISTRY.</h1>
-    <p id="TagLine">"Where Hands Gather in Prayer"</p>
+  <header class="headerBG">
+    <img class="headerimg" src="img/header.png">
   </header>
+
+  <!-- Mission Statement -->
+  <section id="Mission" class="sectionBG">
+    <h2 id="MissionTitle">Our Mission Statement</h2>
+    <img src="img/missionImg.png" class="d-block mx-auto" />
+    <div id="MissionDescriptionWrapper">
+      <p id="MissionDescription" class="sectionText">
+        CJ Ministry's mission seeks to proclaim Spiritual Brokenness and
+        social Pain with Faith, Love, and Hope.
+      </p>
+    </div>
+  </section>
 
   <!-- About Us and Leadership -->
   <div class="container">
@@ -113,22 +124,54 @@
       </section>
     </div>
   </div>
-
-  <!-- Mission Statement -->
-  <section id="Mission" class="sectionBG">
-    <h2 id="MissionTitle">Our Mission Statement</h2>
-    <img src="img/missionImg.png" class="d-block mx-auto" />
-    <div id="MissionDescriptionWrapper">
-      <p id="MissionDescription" class="sectionText">
-        CJ Ministry's mission seeks to proclaim Spiritual Brokenness and
-        social Pain with Faith, Love, and Hope.
-      </p>
+  <!-- Our Values -->
+  <section id="OurValues" class="sectionBG text-center mx-auto">
+    <h2 id="OurValuesTitle">Our Values</h2>
+    <div class="row">
+      <div class="value col-lg-4 d-flex justify-content-center">
+        <div class="card bg-custom border-0" style="width: 18rem">
+          <img src="img/honor.png" class="card-img-top customSize" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title titleColor">Honor God</h5>
+            <p class="card-text cardTextColor">
+              Honor God through prayer, and reading God's Word.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="value col-lg-4 d-flex justify-content-center">
+        <div class="card bg-custom border-0" style="width: 18rem">
+          <img src="img/love.png" class="card-img-top customSize" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title titleColor">Spread Love</h5>
+            <p class="card-text cardTextColor">
+              Love each other and the community. We believe that we are all
+              broken and need healing and growth.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="value col-lg-4 d-flex justify-content-center">
+        <div class="card bg-custom border-0" style="width: 18rem">
+          <img src="img/diversity.png" class="card-img-top customSize" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title titleColor">Diversity</h5>
+            <p class="card-text cardTextColor">
+              Value cultural diversity and building a diverse space for
+              clients and the community we serve.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+
 
   <!-- Carousel -->
   <!-- carousel class for general structure of carousel -->
   <!-- slide for smooth transition of slides -->
+  <h2 id="GallaryTitle">Previous Events</h2>
+  </div>
   <section id="carouselIndicators" class="carousel slide">
     <!-- The three lines in the button -->
     <div class="carousel-indicators">
@@ -173,48 +216,6 @@
       <!-- right arrow icon -->
       <span class="carousel-control-next-icon"></span>
     </button>
-  </section>
-
-  <!-- Our Values -->
-  <section id="OurValues" class="sectionBG text-center mx-auto">
-    <h2 id="OurValuesTitle">Our Values</h2>
-    <div class="row">
-      <div class="value col-lg-4 d-flex justify-content-center">
-        <div class="card bg-custom border-0" style="width: 18rem">
-          <img src="img/honor.png" class="card-img-top customSize" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title titleColor">Honor God</h5>
-            <p class="card-text cardTextColor">
-              Honor God through prayer, and reading God's Word.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="value col-lg-4 d-flex justify-content-center">
-        <div class="card bg-custom border-0" style="width: 18rem">
-          <img src="img/love.png" class="card-img-top customSize" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title titleColor">Spread Love</h5>
-            <p class="card-text cardTextColor">
-              Love each other and the community. We believe that we are all
-              broken and need healing and growth.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="value col-lg-4 d-flex justify-content-center">
-        <div class="card bg-custom border-0" style="width: 18rem">
-          <img src="img/diversity.png" class="card-img-top customSize" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title titleColor">Diversity</h5>
-            <p class="card-text cardTextColor">
-              Value cultural diversity and building a diverse space for
-              clients and the community we serve.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <footer>

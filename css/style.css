@@ -12,6 +12,19 @@
 }
 
 /* custom classes for display */
+
+.headerBG{
+  height: auto;
+  max-width: 100%;
+}
+
+.headerimg{
+  height: auto;
+  max-width: 100%;
+  margin-top:4%;
+  background-color: #9cb8cd;
+}
+
 .sectionBG {
   background-color: #243969;
   padding: 5%;
@@ -43,6 +56,7 @@
 /* #region Navigation */
 nav {
   background-color: #b7e0ff;
+  height: 8%;
 }
 
 #DonateButton {
@@ -132,11 +146,14 @@ header {
 /* #region About Us and Leadership */
 #AboutUs {
   color: var(--normalTextColor);
-  padding-top: 3em;
+  /* padding-top: 3em; */
+  padding: 3% 6% 6% 6%
 }
 
 #AboutUsTitle {
-  text-align: center;
+  text-align: left;
+  font-size: 3em;
+  margin-bottom:4%;
 }
 
 #AboutUsDescription {
@@ -146,11 +163,14 @@ header {
 
 #Leadership {
   color: var(--normalTextColor);
-  padding: 3em 0 3em 3em;
+  padding: 3% 6% 6% 6%
+
 }
 
 #LeadershipTitle {
-  text-align: center;
+  text-align: left;
+  font-size: 3em;
+  margin-bottom:4%;
 }
 
 #LeadershipImg {
@@ -176,6 +196,13 @@ header {
 #OurValuesTitle {
   color: var(--highlightYellow);
   text-align: center;
+}
+
+
+#GallaryTitle {
+  text-align: center;
+  font-size: 3em;
+  margin: 3% 2% 0% 0%;
 }
 
 .valueTitle {
