@@ -36,22 +36,8 @@
   color: #ffdd28;
 }
 
-.helpInfo .imgContainer {
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.imgContainer img {
-  /* object-fit: contain;
-  margin: auto;
-  display: block; */
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
-  /* height:100%; */
+.imageContainer{
+  margin:2%;
 }
 
 /* #region Navigation */
