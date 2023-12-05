@@ -30,30 +30,6 @@
 }
 /* #endregion */
 
-.resourcesHead {
-  background-color: #243969;
-  padding: 2%;
-  color: #ffdd28;
-  letter-spacing: .2rem;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.resourceList {
-  padding: 2%;
-  font-size: 1.2em;
-}
-
-.resourceSub {
-  background-color: #243969;
-  padding: 2%;
-  font-size: 1.5em;
-  color: #ffdd28;
-}
-
-.imageContainer {
-  margin: 2% 0 2% 0;
-}
-
 /* #region Navigation */
 nav {
   background-color: #b7e0ff;
@@ -264,9 +240,11 @@ footer {
   }
 }
 
+/* Resources page ??? */
 .bg-custom {
   background-color: #11204300 !important;
 }
+
 .customSize {
   width: 30% !important;
   margin: auto;
@@ -278,4 +256,33 @@ footer {
 
 .cardTextColor {
   color: var(--sectionTextColor);
+}
+
+.resourcesHead {
+  background-color: #243969;
+  padding: 2%;
+  color: #ffdd28;
+  letter-spacing: 0.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.resourceList {
+  padding: 2%;
+  font-size: 1.2em;
+}
+
+.resourceSub {
+  background-color: #243969;
+  padding: 2%;
+  font-size: 1.5em;
+  color: #ffdd28;
+}
+
+.imageContainer {
+  margin: 2% 0 2% 0;
+}
+
+.breadcrumb {
+  padding: 1% 0 1% 0 !important;
+  margin-bottom: 0 !important;
 }
