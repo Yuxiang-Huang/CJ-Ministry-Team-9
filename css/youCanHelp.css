@@ -1,3 +1,8 @@
 .card {
   margin-bottom: 5%;
 }
+
+#VolunteerEmail {
+  text-decoration: none;
+  color: black;
+}
