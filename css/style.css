@@ -123,7 +123,6 @@ header {
 /* #region About Us and Leadership */
 #AboutUs {
   color: var(--normalTextColor);
-  /* padding-top: 3em; */
   padding: 3% 6% 6% 6%;
 }
 
@@ -140,7 +139,7 @@ header {
 
 #Leadership {
   color: var(--normalTextColor);
-  padding: 3% 6% 6% 6%;
+  padding: 3% 6% 6% 6% !important;
 }
 
 #LeadershipTitle {
@@ -211,6 +210,11 @@ footer {
 
 #FooterHeaderRow {
   font-size: large;
+}
+
+#Email {
+  text-decoration: none;
+  color: #9cb8cd;
 }
 
 /* #endregion */
